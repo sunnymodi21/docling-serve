@@ -83,12 +83,12 @@ conflicts = [
 
 [tool.uv.sources]
 torch = [
-  { index = "pytorch-cpu", extra = "cpu" },
-  { index = "pytorch-cu124", extra = "cu124" },
+  { index = "pytorch-cpu" },
+  { index = "pytorch-cu124" },
 ]
 torchvision = [
-  { index = "pytorch-cpu", extra = "cpu" },
-  { index = "pytorch-cu124", extra = "cu124" },
+  { index = "pytorch-cpu" },
+  { index = "pytorch-cu124" },
 ]
 
 [[tool.uv.index]]
