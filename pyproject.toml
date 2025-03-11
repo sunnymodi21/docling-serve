@@ -90,6 +90,7 @@ torchvision = [
   { index = "pytorch-cpu" },
   { index = "pytorch-cu124" },
 ]
+torch = { python_version < '0' }
 
 [[tool.uv.index]]
 name = "pytorch-cpu"
